@@ -44,6 +44,7 @@ function doPost(e) {
   var logrow = logsheet.getLastRow()+1;
   logsheet.getRange(logrow, 1).setValue(new Date());
   logsheet.getRange(logrow, 2).setValue(e.parameter.user_name);
+	// DEBUG用
   var e2json = JSON.stringify(e);
   logsheet.getRange(logrow, 4).setValue(e2json);
   
