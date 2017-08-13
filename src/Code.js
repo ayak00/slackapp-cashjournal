@@ -16,9 +16,9 @@
  * 	NG:Error message
  *
  * データファイルURL
- *  https://docs.google.com/spreadsheets/d/[File ID]/edit
+ * 	https://docs.google.com/spreadsheets/d/[File ID]/edit
  * 必要なシート
- *  cash、log
+ * 	cash、log
  * cashシートのヘッダ行
  * 	No.,日付,金額,支払先,内容
  * 
