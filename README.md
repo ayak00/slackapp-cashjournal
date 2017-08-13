@@ -13,7 +13,7 @@ Slackコマンドから現金支出を入力、Google Sheetsにため込む。
     - log
 1. 作成したGoogle Sheetsのスプレッドシート IDを確認。
     > https://docs.google.com/spreadsheets/d/[ここのID]/edit#gid=0
-1. GASファイル(Code.gs)を編集　　
+1. GASファイル(Code.gs)を編集。（アップロード後でも）　　
     > var FILE_ID = "[File ID]";  
 
     [File ID]をスプレッドシートIDで書き換え。
@@ -23,7 +23,7 @@ Slackコマンドから現金支出を入力、Google Sheetsにため込む。
 1. Webアプリとして公開。  
 1. Slackコマンドの追加。 
  
-    6,7の手順はこっちで。-> [SlackCmdTest](https://github.com/ayak00/SlackCmdTest)
+    上記手順はこっちで。-> [SlackCmdTest](https://github.com/ayak00/SlackCmdTest)
 
 
 
